@@ -1,3 +1,15 @@
+#ADDITION, SUBTRACTION AND MULTIPLICATION
+
+if __name__ == '__main__':
+    a = int(input())
+    b = int(input())
+    print(a+b)
+    print(a-b)
+    print(a*b)
+
+
+#INTEGER DIVISION AND FLOOR DIVISION
+
 if __name__ == '__main__':
     a = int(input())
     b = int(input())
