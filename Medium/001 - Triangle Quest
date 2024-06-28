@@ -1,0 +1,15 @@
+for i in range(1,int(input())): #More than 2 lines will result in 0 score. Do not leave a blank line als
+     print((((10**i)-1)//9)*i)
+
+
+''' Basically 10**i = 10**1 = 10
+     10-1 = 9
+     9//9=1
+     1*1 =1
+i=2 
+   10**2 = 10**2 = 100
+     100-1 = 99
+     99//9=11
+     11*2 =22
+
+'''
