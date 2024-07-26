@@ -1,0 +1,12 @@
+if __name__ == '__main__':
+    n = int(input())
+    arr =list(map(int, input().split()))
+    maxv = -100
+    maxsec = -100
+    for i in arr:
+        if i>maxv:
+            maxv=i
+        else:
+            if i>maxsec and i<maxv: 
+                maxsec=i
+    print(maxsec)
