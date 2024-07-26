@@ -1,0 +1,19 @@
+if __name__ == '__main__':
+    mydict = {}
+    for _ in range(int(input())):
+        name = input()
+        score = float(input())
+        mydict[name]= score
+    min_score = min(mydict.values())
+    minsec = 100
+    for score in mydict.values():
+        if score<minsec and score>min_score:
+            minsec = score
+    a =[]
+    for name, score in mydict.items():
+        if score==minsec:
+            a.append(name)
+    a.sort()
+    for name in a:
+        print(name)
+        
